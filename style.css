@@ -1,39 +1,93 @@
-
 body {
-    background-color: #161228;
+
+    background-color: #371E1E;
+
     font-family: "Permanent Marker", cursive;
+
     margin: 40px;
+
 }
-h1{
-    color: #bf76bf;
+
+h1 {
+
+    background-color: #0A0A0A;
+
+    color: #7b757b;
+
     font-size: 48px;
+
     text-align: center;
+
 }
+
 h2 {
-    color:#975F8F;
-    border-bottom: 2px soild rgb(186, 84, 186);
+
+    color: #7b757b;
+
+    border-bottom: 2px solid #0A0A0A;
+
     text-align: center;
+
 }
+
 p {
+
     font-size: 18px;
+
     line-height: 1.5;
-    color: #cc9cd5;
+
+    color: #7b757b;
+
 }
+
 a {
-    color: rgb(239, 200, 229);
+
+    color: #0A0A0A;
+
 }
-img{
+
+img {
+
     width: 400px;
-    border: 5px solid gainsboro;
+
+    border: 5px solid #0A0A0A;
+
     border-radius: 20px;
+
 }
+
 li {
-    color: rgb(180, 146, 215);
+
+    color: #a49dab;
+
     margin: 10px;
+
 }
-button{
-    background-color:  #bea7b9;
+
+button {
+
+    background-color: #a49dab;
+
 }
-blockquote{
-    color: #bf76bf;
+
+blockquote {
+
+    color: #B7B4AE;
+
+}
+
+
+
+#page-title {
+
+    background-color: #0A0A0A;
+
+}
+
+
+
+.highlight {
+
+    color: #7b757b;
+
 }
