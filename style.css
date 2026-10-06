@@ -1,6 +1,6 @@
 body {
 
-    background-color: #371E1E;
+    background: linear-gradient(#371e1e, #ebceef);
 
     font-family: "Permanent Marker", cursive;
 
@@ -8,86 +8,309 @@ body {
 
 }
 
+
+/* =========================
+   MAIN TITLE
+   ========================= */
+
 h1 {
 
-    background-color: #0A0A0A;
+    border: 3px solid #ccbbe2;
 
-    color: #7b757b;
+    background: linear-gradient(to top, #4b0202, #e76ed7);
+
+    width: fit-content;
+
+    color: #bf76bf;
 
     font-size: 48px;
 
     text-align: center;
 
+    border-radius: 10px;
+
+    margin: 0 auto;
+
+    -webkit-text-stroke: 1px #4e041a80;
+
 }
+
+
+/* =========================
+   SUB TITLE
+   ========================= */
 
 h2 {
 
-    color: #7b757b;
+    color: #bf76bf;
 
-    border-bottom: 2px solid #0A0A0A;
+    background: linear-gradient(to bottom, #4b0202, #e76ed7);
+
+    text-align: center;
+
+    width: fit-content;
+
+    font-size: 40px;
+
+    padding: 0 15px;
+
+    border: 3px solid #ccbbe2;
+
+    border-top: none;
+
+    border-radius: 0 0 10px 10px;
+
+    -webkit-text-stroke: 1px #4e041a80;
+
+    margin: -3px auto 0;
+
+    position: relative;
+
+    z-index: 1;
+
+}
+
+
+/* =========================
+   MAIN PAGE TITLE
+   ========================= */
+
+h3 {
+
+    color: #bf76bf;
+
+    text-align: center;
+
+    margin-top: 0;
+
+    background: linear-gradient(to right, #ebceef, #f79bcd);
+
+    -webkit-text-stroke: 1px #8f183c80;
+
+    font-size: 35px;
+
+    width: fit-content;
+
+    border-radius: 10px;
+
+    border: 3px solid #32007270;
+
+}
+
+
+/* =========================
+   INTRODUCTION
+   ========================= */
+
+
+
+
+/* =========================
+   MAIN BODY BOX
+   ========================= */
+
+.Body {
+
+    background-color: black;
+
+    font-family: "Permanent Marker", cursive;
+
+    border-radius: 10px;
+
+    border: 3px solid grey;
+
+    padding: 20px;
+
+}
+
+.Me {
+    font-size: 20px;
+
+    line-height: 1.5;
+
+    color: #a107bd;
+
+    position: relative;
+
+    margin-top: 20px;
+
+}
+
+
+/* =========================
+   GENERAL PARAGRAPHS
+   ========================= */
+
+p {
+
+    font-size: 20px;
+
+    line-height: 1.5;
+
+    color: #a107bd;
+
+}
+
+
+/* =========================
+   LINKS
+   ========================= */
+
+a {
+
+    color: white;
+    -webkit-text-stroke: 1px rgba(67, 1, 94, 0.966);
+
+}
+
+
+/* =========================
+   MEME SECTION
+   ========================= */
+
+.meme {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-end;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* Meme image */
+
+.meme img {
+
+    width: 400px;
+
+    border: 5px solid #ccbbe2;
+
+    border-radius: 20px;
+
+    display: block;
+
+}
+
+
+/* Meme caption */
+
+.meme .highlight {
+
+    width: 400px;
+
+    margin: 5px 0 0 0;
+
+    color: aqua;
 
     text-align: center;
 
 }
 
-p {
 
-    font-size: 18px;
+/* =========================
+   FAVORITE SITE
+   ========================= */
 
-    line-height: 1.5;
+.site {
 
-    color: #7b757b;
-
-}
-
-a {
-
-    color: #0A0A0A;
+    margin-top: -350px;
 
 }
 
-img {
 
-    width: 400px;
+/* =========================
+   FONTS
+   ========================= */
 
-    border: 5px solid #0A0A0A;
+.fonts {
 
-    border-radius: 20px;
+    margin-top: 10px;
 
 }
 
-li {
+.fonts li {
 
-    color: #a49dab;
+    color: #bf76bf;
 
     margin: 10px;
 
 }
 
-button {
 
-    background-color: #a49dab;
+/* =========================
+   VIDEO GAMES
+   ========================= */
 
-}
+.video-games {
 
-blockquote {
-
-    color: #B7B4AE;
-
-}
-
-
-
-#page-title {
-
-    background-color: #0A0A0A;
+    margin-top: 200px;
 
 }
 
 
+/* Game list */
+
+.video-games li {
+
+    color: rgb(180, 146, 215);
+
+    margin: 10px;
+
+}
+
+
+/* =========================
+   CLOCK IN
+   ========================= */
+
+.clock-in {
+
+    margin-top: 30px;
+
+}
+
+
+/* Quote */
+
+.clock-in blockquote {
+
+    color: #bf76bf;
+
+}
+
+
+/* Button */
+
+.clock-in button {
+
+    background-color: #bea7b9;
+
+}
+
+
+/* =========================
+   HIGHLIGHT TEXT
+   ========================= */
 
 .highlight {
 
-    color: #7b757b;
+    color: aqua;
+
+    text-align: right;
+
+}
+
+
+/* =========================
+   PAGE TITLE ID
+   ========================= */
+
+#page-title {
+
+    background: linear-gradient(to top, #4b0202, #e76ed7);
 
 }
