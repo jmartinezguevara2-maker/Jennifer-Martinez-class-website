@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background:
+        radial-gradient(circle at 20% 30%, rgba(128, 0, 128, 0.5), transparent 30%),
+        linear-gradient(135deg, #050014, #10002b, #000000);
+
+}
+
+.page {
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+
+    grid-template-areas:
+        "header header header"
+        "left main right"
+        "footer footer footer";
+
+    gap: 10px;
+}
+
+
+.header {
+    grid-area: header;
+
+    background: linear-gradient(to top, purple, red);
+    color: navy;
+
+    padding: 20px;
+    text-align: center;
+
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
+.left-sidebar {
+    grid-area: left;
+
+    background: linear-gradient(to right, blue, cyan);
+    color: white;
+
+    padding: 20px;
+
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.main-content {
+    grid-area: main;
+
+    background: linear-gradient(to bottom, #d2b48c, #069494);
+    color: white;
+
+    padding: 20px;
+
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+
+.right-sidebar {
+    grid-area: right;
+
+    background: linear-gradient(to right, green, yellow);
+    color: white;
+
+    padding: 20px;
+
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.footer {
+    grid-area: footer;
+
+    background: linear-gradient(to right, red, #390000);
+    color: white;
+
+    padding: 20px;
+    text-align: center;
+
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.page > a {
+    grid-column: 1 / -1;
+
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
